@@ -2,56 +2,56 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Jacob', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'Jacob Carlberg',
   subtitle: '',
-  cta: '',
+  cta: 'About Me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: '',
-  paragraphTwo: '',
+  paragraphTwo: 'On a personal level i am highly motivated, result oriented, self-driven, hard-working, fast learner and constantly looking to improve my skills and keep up to date with the latest tool',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://cvkungen.se/r/uUOjUfRe6', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'rest-countries.png',
+    title: 'Rest-Countries API',
+    info: 'HTML, CSS, JavaScript, API',
+    info2: 'Front-end challenge provided by frontendmentor.com. The challenge is to integrate with the REST Countries API to pull country data and display it like in the provided designs.',
+    url: 'https://rest-countriess-6lsrlmn18.vercel.app/',
+    repo: 'https://github.com/DLN1/rest-countries', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'blogr-desktop.png',
+    title: 'Blogr Landing Page',
+    info: 'HTML, CSS, Bootstrap',
+    info2: 'Front-end challenge provided by frontendmentor.com. The challenge is to build out the landing page as close as the provided design as possible.',
+    url: 'https://blogr-frontendmentor-dln1.vercel.app/',
+    repo: 'https://github.com/DLN1/blogr-frontendmentor', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'clipboard.png',
+    title: 'Clipboard Landing Page',
+    info: 'HTML, CSS, Bootstrap',
+    info2: 'Front-end challenge provided by frontendmentor.com. The challenge is to build out the landing page as close as the provided design as possible.',
+    url: 'https://clipboard-landing-page-swart-five.vercel.app/',
+    repo: 'https://github.com/DLN1/clipboard-landing-page', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'jacobcarlberg97@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +67,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jacob-carlberg-048685195/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/DLN1',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
