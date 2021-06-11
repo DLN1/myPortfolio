@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'invoice-img.png',
+    title: 'Invoice App',
+    info: 'Vue 3, vuex, scss, Firebase for backend',
+    info2: 'Front-end challenge provided by frontendmentor.com. ',
+    url: 'https://invoice-app-e4c26.web.app/',
+    repo: 'https://github.com/DLN1/Vue-Invoice-App', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'rest-countries.png',
     title: 'Rest-Countries API',
     info: 'HTML, CSS, JavaScript, API',
