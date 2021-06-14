@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'invoice-img.png',
+    img: 'Invoice-img.png',
     title: 'Invoice App',
     info: 'Vue 3, vuex, scss, Firebase for backend',
     info2: 'Front-end challenge provided by frontendmentor.com. ',
